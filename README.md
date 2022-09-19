@@ -14,6 +14,7 @@ This repository is a continuation of [ALX-Low_level_programming](https://github.
 
 | Projects | Short Description |
 | -------- | ----------------- |
+| [0x00-python-hello_world](0x00-python-hello_world) | Introduction to Python scripting, bash script for running python code, python scripts and C linkedlist circle detection |
 | checkback | please checkback, as i will continue to update this repo as required |
 
 ## WARNINGS!!!
