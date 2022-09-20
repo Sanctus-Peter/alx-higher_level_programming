@@ -2,4 +2,4 @@
 for char in range(ord("a"), ord("z") + 1):
     if chr(char) == 'e' or chr(char) == 'q':
         continue
-    print(f"{char:c}", end='')
+    print("{:c}".format(char), end='')

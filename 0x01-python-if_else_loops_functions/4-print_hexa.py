@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for numbers in range(99):
-    print(f"{numbers:d} = 0x{numbers:x}")
+    print("{:d} = 0x{:x}".format(numbers, numbers))
