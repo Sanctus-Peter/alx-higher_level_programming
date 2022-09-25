@@ -14,6 +14,10 @@ int is_palindrome(listint_t **head)
 	listint_t *secondHalf, *mid_node = NULL;
 	int retval = 0;
 
+	if (!head)
+		return (0);
+	if (!(*head) || !((*head)->next))
+		return (1);
 	if (*head && (*head)->next)
 	{
 		while(fastP && fastP->next)
