@@ -7,7 +7,7 @@ of Data Structures and Algorithm. This repo could serve as a source of learning 
 
 ## prerequisite
 
-This repository is a continuation of [ALX-Low_level_programming](https://github.com/Sanctus-Peter/alx-low_level_programming) and serve to build and refine my skill as a software engineer.
+This repository is a continuation of [ALX-Low_level_programming](https://github.com/Sanctus-Peter/alx-low_level_programming) and serves to build and refine my skill as a software engineer.
 
 
 ## Contents
