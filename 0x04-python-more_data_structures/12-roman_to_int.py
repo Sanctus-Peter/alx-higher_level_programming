@@ -15,12 +15,12 @@ def roman_to_int(r_str):
     }
     ret = 0
     for i in range(len(r_str)):
-        if r_str[i] not in rom_var:
+        if r_str[i].upper() not in rom_var:
             return None
         if i == len(r_str) - 1:
-            ret += rom_var[r_str[i]]
-        elif rom_var[r_str[i]] < rom_var[r_str[i + 1]]:
-            ret -= rom_var[r_str[i]]
+            ret += rom_var[r_str[i].upper()]
+        elif rom_var[r_str[i].upper()] < rom_var[r_str[i + 1].upper()]:
+            ret -= rom_var[r_str[i].upper()]
         else:
-            ret += rom_var[r_str[i]]
+            ret += rom_var[r_str[i].upper()]
     return ret
