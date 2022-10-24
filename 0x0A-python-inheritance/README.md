@@ -1,17 +1,20 @@
-# HL PL Python
-
+# 0x0A. Python - Inheritance
 
 ## Description
-This repository marks the begining of our second sprint at ALX SE journey.
-Here we will exerience the perks that came with modern HLLs whilst reminiscing the power of LLLs.
+Some simple exercises to get us acquinted with the concept of inheritance in python
 
-## Links
-* [0x00-python-hello_world](0x00-python-hello_world)
-* [0x01-python-if_else_loops_functions](0x01-python-if_else_loops_functions)
-* [0x02-python-import_modules](0x02-python-import_modules)
-* [0x03-python-data_structures](0x03-python-data_structures)
-* [0x04-python-more_data_structures](0x04-python-more_data_structures)
-* [0x05-python-exceptions](0x05-python-exceptions)
-* [0x06-python-classes](0x06-python-classes)
-* [0x07-python-test_driven_development](0x07-python-test_driven_development)
-* [0x0A-python-inheritance](0x0A-python-inheritance)
+## Tasks
+* [0-lookup.py](0-lookup.py)
+* [1-my_list.py](1-my_list.py)
+* [2-is_same_class.py](2-is_same_class.py)
+* [3-is_kind_of_class.py](3-is_kind_of_class.py)
+* [4-inherits_from.py](4-inherits_from.py)
+* [5-base_geometry.py](5-base_geometry.py)
+* [6-base_geometry.py](6-base_geometry.py)
+* [7-base_geometry.py](7-base_geometry.py)
+* [8-rectangle.py](8-rectangle.py)
+* [9-rectangle.py](9-rectangle.py)
+* [10-square.py](10-square.py)
+* [11-square.py](11-square.py)
+* [100-my_int.py](100-my_int.py)
+* [101-add_attribute.py](101-add_attribute.py)
