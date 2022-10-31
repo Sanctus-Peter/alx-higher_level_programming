@@ -458,16 +458,6 @@ class TestBase_save_to_file_csv(unittest.TestCase):
         with open("Square.csv", "r") as f:
             self.assertTrue("8,10,7,2", f.read())
 
-    def test_save_to_file__csv_None(self):
-        Square.save_to_file_csv(None)
-        with open("Square.csv", "r") as f:
-            self.assertEqual("[]", f.read())
-
-    def test_save_to_file_csv_empty_list(self):
-        Square.save_to_file_csv([])
-        with open("Square.csv", "r") as f:
-            self.assertEqual("[]", f.read())
-
     def test_save_to_file_csv_no_args(self):
         with self.assertRaises(TypeError):
             Rectangle.save_to_file_csv()

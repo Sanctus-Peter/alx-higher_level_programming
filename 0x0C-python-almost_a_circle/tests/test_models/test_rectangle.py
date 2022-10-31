@@ -569,11 +569,6 @@ class TestRectangle_update_args(unittest.TestCase):
         r.update(89, 2, 3, 4, 5)
         self.assertEqual("[Rectangle] (89) 4/5 - 2/3", str(r))
 
-    def test_update_args_more_than_five(self):
-        r = Rectangle(10, 10, 10, 10, 10)
-        r.update(89, 2, 3, 4, 5, 6)
-        self.assertEqual("[Rectangle] (89) 4/5 - 2/3", str(r))
-
     def test_update_args_None_id(self):
         r = Rectangle(10, 10, 10, 10, 10)
         r.update(None)
@@ -585,12 +580,6 @@ class TestRectangle_update_args(unittest.TestCase):
         r.update(None, 4, 5, 2)
         correct = "[Rectangle] ({}) 2/10 - 4/5".format(r.id)
         self.assertEqual(correct, str(r))
-
-    def test_update_args_twice(self):
-        r = Rectangle(10, 10, 10, 10, 10)
-        r.update(89, 2, 3, 4, 5, 6)
-        r.update(6, 5, 4, 3, 2, 89)
-        self.assertEqual("[Rectangle] (6) 3/2 - 5/4", str(r))
 
     def test_update_args_invalid_width_type(self):
         r = Rectangle(10, 10, 10, 10, 10)
