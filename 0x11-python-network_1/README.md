@@ -5,9 +5,6 @@ This directory contain tasks that helonus understand more on how
 python interact with the internet and how to parse requests and obtain data
 from either the response headers or the content
 
-## Author
-Mahadi Abuhuraira
-Date: 17 Jan, 2023
 
 ## Tasks
 * [0-hbtn_status.py](0-hbtn_status.py)
